@@ -5,7 +5,11 @@ public class Main {
        System.out.println(person.getFirstName());
 
          Person person2 = new Person();
-       person2.setMiddleName("Middler");
+       person2.setMiddleNames("Middler");
        System.out.println(person2.getMiddleNames());
+
+       Person userNameObj= new Person();
+       userNameObj.setUserName("theRedRhino"); 
+       System.out.println(userNameObj.getUserName());
    }
 }
