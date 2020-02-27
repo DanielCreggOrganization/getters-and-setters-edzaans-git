@@ -4,6 +4,17 @@ public class Person {
     private String middleNames;
     private String userName;
 
+      //Setter Methods
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+     public void setMiddleName(String middleNames) {
+        this.middleNames = middleNames;
+    }
+     public void setLastName(String userName) {
+        this.firstName = userName;
+    }
+
     // Getter Methods
     public String getFirstName() {
         return firstName;
@@ -13,17 +24,6 @@ public class Person {
     }
      public String getUserName() {
         return userName;
-    }
-
-    //Setter Methods
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-     public void setMiddleName(String middleNames) {
-        this.middleNames = middleNames;
-    }
-     public void setLastName(String userName) {
-        this.firstName = userName;
     }
 
 }
